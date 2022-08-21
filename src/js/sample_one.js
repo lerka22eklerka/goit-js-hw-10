@@ -16,13 +16,13 @@ export default function onSingleCountry(country) {
 </div>
 <ul class="country-list">
   <li class="country-item">
-    <p class="country-capital">Capital: <span class="info-text">${capital}</span></p>
+    <p class="country-style">Capital: <span class="info-text">${capital}</span></p>
   </li>
   <li class="country-item">
-    <p class="country-population">Population: <span class="info-text">${population}</span></p>
+    <p class="country-style">Population: <span class="info-text">${population}</span></p>
   </li>
   <li class="country-item">
-    <p class="country-lang">Languages: <span class="info-text">${langList}</span></p>
+    <p class="country-style">Languages: <span class="info-text">${langList}</span></p>
   </li>
 </ul>`;
 }
